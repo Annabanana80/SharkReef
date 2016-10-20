@@ -6,4 +6,3 @@ For this project, I am using HTML5, CSS3, jQuery, and Materialize. For the conta
 
 This is still a work in progress as I need to go over the content with the owners for approval and discuss other pages, images, and plans.
 
-The original website is here: http://www.sharkreeftrans.com/ so if you or anyone you know is in the logistics industry, give them a call! They're very nice. 
