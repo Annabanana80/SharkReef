@@ -1,6 +1,6 @@
 Greetings! This is a project that I am currently working on for a small business. 
 
-The buisiness is called Shark Reef Transportation are in the logistics industry and asked me to redo their website. 
+The company Shark Reef Transportation are in the logistics industry and asked me to redo their website. 
 
 For this project, I am using HTML5, CSS3, jQuery, and Materialize. For the contact form, I may use PHP or an API.
 
