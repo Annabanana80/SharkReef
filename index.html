@@ -13,15 +13,28 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="http://i.imgur.com/uq8e4xNm.jpg"/></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Menu</a></li>
+     <a id="logo-container" href="#" class="brand-logo"><img src="http://i.imgur.com/uq8e4xNm.jpg"/></a>
+     <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="index.html" class="black-text text-black">Home</a></li>
+        <li class="divider"></li>
+        <li><a href="request-a-quote.html" class="black-text text-black">Request A Quote</a></li>
+        <!-- <li class="divider"></li>
+        <li><a href="#!" class="black-text text-black">About Us</a></li> -->
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Menu</a></li>
+    </div>
+  </nav>
+       <!-- <ul class="right hide-on-med-and-down">
+         <li><a href="#">Menu</a></li>
+       </ul>
+ 
+       <ul id="nav-mobile" class="side-nav">
+         <li><a href="#">Menu</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
     </div>
   </nav>
 
@@ -35,11 +48,23 @@
         </div>
         <!-- //The following will link to or bring up a page for emailing/calling -->
         <div class="row center">
-          <button class="btn-large waves-effect waves-light blue" id="popup" onclick="divShow()">Contact Us</button>
+          <button class="btn-large waves-effect waves-light blue modal-trigger" id="popup" href="#modal1" >Contact Us</button>
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <p><strong>Name:</strong> Elizabeth Lightner-Devoe & Timothy Devoe</p>
+              <p><strong>Phone:</strong> (502)290-9070</p>
+              <p><strong>Fax:</strong> (502)690-4388</p>
+              <p><strong>E-Mail:</strong><a href="mailto:SharkReefTrans2@rocketmail.com"> SharkReefTrans2@rocketmail.com</a></p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="truck2.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="truck3.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -182,7 +207,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="truck3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="truck2.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer blue">
